@@ -1,0 +1,41 @@
+{
+    "Revtura":{
+        "nom" : "Revtura",
+        "titre" : "Revtura",
+        "info" : "Création site web",
+        "titre1": "Un projet collectif",
+        "paragraphe1": "Revtura est un site fictif réalisé en 2ème semestre de DUT MMi (Métiers des Multimédia et de lInternet). Issus d'un travail de groupe nous devions nous organiser afin de produire un site répondant à différentes contraintes a l'image d'un projet pro. Revtura est ce qui s'approche le plus d'un réseau social pour voyageur. L'utlisateur a donc la possibilité d'utiliser de nombreuses fonctionnalités comme la gestion d'un compte, la gestion de contenu ou encore de la géolocalisation.",
+        "photo1": "/revtura/accueil.png",
+        "couleurs": {
+            "c1" : "#0A8EDA",
+            "c2" : "#F2F2F2",
+            "c3" : "#FFAE26",
+            "c4" : "#006C89"
+        },
+        "titre2": "Charte graphique",
+        "paragraphe2": "Promettant aux utilisateurs qu’ils pourront partager leurs expériences de voyages et de découvrir celle des autres nous avons donc choisi le nom Revtura qui les deux mots latin Reveles et Cultura qui se traduisent par Découvrir et Culture. De la est né notre harmonié colorée ainsi que la sélection des typographie.",
+        "paragraphe2bis" : "La création du logo suit aussi le ton donnée au site. Le choix d'un PIN pour la destination choisie par les utilisateurs et la flèche de validation symbolisant la sureté et faisant référence à un oiseau de dos.",
+        "photo2": "/revtura/landingPage.png"
+    },
+
+    "JeanBauhin":{
+        "nom" : "JeanBauhin",
+        "titre" : "Collège Jean Bauhin",
+        "titre1": "Projet professionel",
+        "paragraphe1": "Le site du collège Jean Bauhin est projet tutoré qui a pour vocation de nous plongé dans l'univers professionnel. Fini les projets fictifs nous nous sommes retrouvés face à des commanditaires bien réel. Plus qu'un exercice, le droit à l'erreur n'était pas envisageable. L'objectif de ce projet était de réaliser le site web du collège Jean Bauhin d'Audincourt répondant à une problématique d'image avec toutes les contraintes d'un site hébergé par l'académie de Besançon.",
+        "photo1": "/jeanBauhin/grilleMockup.png",
+        "couleurs": {
+            "c1" : "#8F1A1A",
+            "c2" : "#F5ECEC",
+            "c3" : "#454444"
+        },
+        "titre2": "Réalisation technique",
+        "paragraphe2": "Avant de commencer à développer le site il a fallu réfléchir aux cas d'utilisation et aux diagrammes d'activité du produit. En adéquation avec les contraintes imposées par l'académie de Besançon (versions, plugins…) le développement pouvait commencer. Le site est développé sous Wordpress afin de faciliter l'enrichissement du site par les commanditaires. En plus des fonctionnalités proposées par WordPress sur le sujet j'ai décidé d'utiliser le plugin ACF qui permet de créer des champs personnalisés. L'idée étant de limiter le client dans la structure de la page afin de ne pas en bouleversé la disposition de ses éléments.",
+        "photo2": "/jeanBauhin/accueil.png"
+    },
+
+    "Anonyme":{
+        "nom" : "Relevé de Notes",
+        "titre": "Mon titre Ano"
+    }
+}
