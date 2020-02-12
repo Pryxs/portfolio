@@ -38,6 +38,9 @@ export default {
 .cls-3{fill:none;stroke:#FAFAFA;stroke-miterlimit:10;stroke-width:2px;}
 .cls-2{fill:none;stroke-miterlimit:10;stroke:#FAFAFA;}
 
+#facebook, #instagram, #linkedin{
+    height: 25px;
+}
 
 .social *{
     transition: 0.3s;

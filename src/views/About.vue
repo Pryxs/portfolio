@@ -1,37 +1,43 @@
 <template>
     <div class="about">
-      <Logo/>
-
-    <h1>A propos</h1>
-        <div class="main">
-        <div class="content">
-            <h2>Corentin Roy,</h2>
-            <h3>Etudiant au <a href="http://mmimontbeliard.com/">DUT MMi de Montbéliard</a></h3>
-            <p>Passionné d'informatique et de dessin j'aime associer cette créativité avec la programmation. 
-                Créer est programmé sont au centre de mes activités. J'aime résoudre des problèmes dont je 
-                n'ai intuitivement aucune réponse, c'est cette perspective d'évolution qui m'attire dans ce 
-                domaine.  </p>
-        </div>
-        <img src="../assets/corentin_roy.png">
-        </div>
-        <div class="svg-wrapper">
-                <svg height="40" width="200" xmlns="http://www.w3.org/2000/svg">
-                  <rect class="shape" height="40" width="200" />
+        <div class="logo">
+        <router-link to="/">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="100 100 652.38 652.38">
+                <title>logo</title>
+                <g id="logo" data-name="logo"><polyline class="cls-5" points="372.24 478.38 341.14 440.78 384.68 440.78 415.78 478.38 372.24 478.38"/>
+                <path class="cls-5" d="M322.14,177.1c24.88,0,93.3,12.44,93.3,93.3s-65.44,91-99.44,91H230l14-27.92s58.63-.09,72-.08c27,0,68.34-13.22,68.34-63,0-43.54-37.34-62-66.34-62-1,0-11.41-.18-11.41-.18Z"/></g>
                 </svg>
-                
-        <a href="CurriculumVitae_CorentinRoy.pdf" class="but" download title="téléchargement" >Mon CV</a>
-        </div>
+        </router-link>
+    </div>
+
+      <div class="cont">
+        <h1>A propos</h1>
+            <div class="main">
+            <div class="content">
+                <h2>Corentin Roy,</h2>
+                <h3>Etudiant au <a href="http://mmimontbeliard.com/">DUT MMi de Montbéliard</a></h3>
+                <p>Passionné d'informatique et de dessin j'aime associer cette créativité avec la programmation. 
+                    Créer est programmé sont au centre de mes activités. J'aime résoudre des problèmes dont je 
+                    n'ai intuitivement aucune réponse, c'est cette perspective d'évolution qui m'attire dans ce 
+                    domaine.  </p>
+            </div>
+            <img src="../assets/corentin_roy.png">
+            </div>
+            <div class="svg-wrapper">
+                    <svg height="40" width="200" xmlns="http://www.w3.org/2000/svg">
+                      <rect class="shape" height="40" width="200" />
+                    </svg>
+            <a href="CurriculumVitae_CorentinRoy.pdf" class="but" download title="téléchargement" >Mon CV</a>
+            </div>
+            </div>
     </div>
 </template>
 
 <script>
-import Logo from '@/components/Logo.vue'
 
 export default {
   name: 'About',
-  components: {
-     Logo
-   },
+ 
    mounted(){
     var element = document.querySelector("body");
     element.removeAttribute("class");
@@ -42,10 +48,15 @@ export default {
 </script>
 
 <style scoped>
-.about {
-    height: 100%;
-    margin: 0;
-    padding: 0;  
+.cont{
+  position: absolute;
+  top: 50%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+
+.bgPro {
+    height: 100%;  
     overflow: hidden;
 }
 
@@ -57,7 +68,7 @@ h1{
     color: white;
     font-weight: normal;
     display: block;
-    margin: auto;
+    margin:  10px auto;
     padding: 5px;
 }
 
@@ -69,8 +80,8 @@ h1{
 }
 
 img{
-    width: 220px;
-    height: auto;
+    width: auto;
+    height: 200px;
     margin-top: 50px;
 }
 
@@ -198,5 +209,25 @@ a{
     text-decoration: none;
     color: black;
   }
+
+  .cls-5{fill:black;stroke:black;stroke-width:1px;}
+
+
+  .logo{
+    width: 80px;
+    padding: 20px 0 0 20px;
+    position: fixed;
+}
+
+.logo *{
+    transition: 0.3s;
+}
+.logo:hover .cls-5
+{
+    animation-duration: 0.3s;
+    stroke-width: 10px;
+    transform: translate(20px,20px);
+
+}
 
 </style>

@@ -8,7 +8,12 @@
                     <path class="cls-6" d="M322.14,177.1c24.88,0,93.3,12.44,93.3,93.3s-65.44,91-99.44,91H230l14-27.92s58.63-.09,72-.08c27,0,68.34-13.22,68.34-63,0-43.54-37.34-62-66.34-62-1,0-11.41-.18-11.41-.18Z"/></g>
                     </svg>
             </router-link>
-        </div>    
+        </div>
+        <div class="presentation">
+          <h1>Corentin Roy</h1>
+          <h1>Développeur Web</h1>
+          <p>Salut salut ! Moi c'est Corentin, un étudiant dans les métiers du numérique et plus particulèrement en développment web. Je cherche un stage qui débutera mi-avril alors si vous appréciez mon travail contactez moi ;)</p>
+        </div>
     <Social/>
     <Navigation/>
   </div>
@@ -25,6 +30,7 @@ export default {
     Social,
     Navigation
   },
+  
 
   mounted(){
     var element = document.querySelector("body");
@@ -37,8 +43,54 @@ export default {
 <style>
 .cls-6{fill:white;stroke:white;stroke-width:1px;}
 
+.presentation{
+  width: 770px;
+  display: block;
+  position: absolute;
+  margin: auto;
+  top: 40%;
+  left: 50%; 
+  transform: translate(-50%, -50%);
+
+}
+
+.presentation h1{
+    letter-spacing: 0.5px;
+    font-family: NotoSans;
+  font-size: 55px;
+  margin: 0;
+  color: #ddd;
+    text-align: right;
+}
+
+.presentation p{
+  margin-top: 70px;
+  color: #ddd;
+  width: 80%;
+}
+
+.presentation h1:nth-child(2){
+  font-size: 70px;
+  text-align: center;
+  background-image: linear-gradient(120deg, #EF9597 0%, #F2BCB8 100%);
+  background-repeat: no-repeat;
+  background-size: 50% 0.2em;
+  background-position: 40px 88%;
+  transition: background-size 0.25s ease-in;
+}
+
+.presentation h1:nth-child(2):hover{
+      background-size: 490px 88%;
+}
+
+.presentation h1:first-child::before{
+    content: ". ";
+  color: #EF9597;
+  font-size: 80px;
+}
+
 .logo{
-    width: 120px;
+    width: 80px;
     padding: 20px 0 0 20px;
 }
 
@@ -54,22 +106,20 @@ export default {
 }
 
 .bg{
-  background-color: DarkSlateBlue;
-  margin: 0;
-  height: 100%;
+  background-color: #4682B4;
   overflow: hidden;
 }
   .social{
     position: absolute;
-    width: 100px;
-    top: 50%;
+    width: 75px;
+    top: 55%;
     transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 50%;
 
 
 }
 
-#linkedin, #facebook{
-    height: 34px;
-    margin-bottom: 130px;
-}
 </style>

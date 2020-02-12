@@ -16,7 +16,7 @@
                     <path id="gauche" class="cls-1" d="M27,31A15,15,0,0,1,27,1"/>
                     <line id="ligne" class="cls-1" x1="27" y1="31" x2="27" y2="70"/>        
                 </svg>
-                <label id="propos">A Propos</label>
+                <label id="propos">A propos</label>
         </router-link>
     </div>
 
@@ -50,17 +50,17 @@ export default {
     text-decoration: none;
     color: #FAFAFA;
     font-family: Questrial, sans-serif;
-    font-size: 25px; 
+    font-size: 20px;
 } 
 
 a{
-    height: 100px;
+    height: 80px;
     min-width: 250px;
     text-decoration: none;
 }
 
 #cercle {
-    height: 100px;
+    height: 80px;
     width: 250px;
     animation-duration: 2s;
     animation-fill-mode: forwards;

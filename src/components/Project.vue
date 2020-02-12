@@ -1,5 +1,7 @@
 <template>
   <div class="project">
+  <Logo/>
+  <div class="main">
     <h1>{{data.titre}}</h1>
     <span>{{data.info}}</span>
 
@@ -11,7 +13,7 @@
       </div>
     </div>
 
-    <div class="harmonie">
+    <div  v-if="data.couleurs" class="harmonie">
         <div :style="circle" class="cricle"></div>
         <div :style="circle2" class="cricle"></div>
         <div :style="circle3" class="cricle"></div>
@@ -29,7 +31,8 @@
     </div>
 
     <Back/>
-  </div>
+  </div>  </div>
+
 
     
   </div>
@@ -38,11 +41,13 @@
 <script>
 import data from '@/data/projects.json'
 import Back from '@/components/Back.vue'
+import Logo from '@/components/Logo.vue'
 
 export default {
   name: 'Project',
   components: {
-    Back
+    Back,
+    Logo
   },
    data() {
       return {
@@ -95,12 +100,14 @@ export default {
 
 }
 </script>
-<style>
+<style scoped>
  .bgVisible{
     background-color: white;
       overflow: visible;
   }
-
+.main{
+  padding-top: 1px;
+}
 .cricle{
     width:80px;
     height:80px;
@@ -118,6 +125,7 @@ export default {
     display: block;
     margin: auto;
     padding: 5px;
+    margin-top: 100px;
 }
 
 span{
@@ -133,14 +141,15 @@ span{
    .first{
        display: flex;
        margin: 100px auto 0 auto;
-       width: 40%;
+       width: 50%;
        max-width: 900px;
+       min-width: 600px;
        justify-content: space-between;
    }
 
    .first img{
        transform: rotate(-20deg);
-       max-width: 250px;
+       max-height: 300px;
    }
 
    .first p{
@@ -164,6 +173,8 @@ span{
 
    .second img{
      max-width: 500px;
+    width: 45%;
+    height: auto;
    }
 
    
@@ -172,7 +183,8 @@ span{
        margin: 100px auto 0 auto;
        padding: 100px 0 0 0;
        width: 70%;
-       max-width: 1100px;
+       max-width: 1200px;
+       min-width: 900px;
        justify-content: space-between;
        text-align: left;
    }

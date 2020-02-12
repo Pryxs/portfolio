@@ -20,8 +20,9 @@
 .cls-5{fill:black;stroke:black;stroke-width:1px;}
 
 .logo{
-    width: 120px;
+    width: 80px;
     padding: 20px 0 0 20px;
+    position: fixed;
 }
 
 .logo *{
