@@ -15,7 +15,7 @@
             <div class="main">
             <div class="content">
                 <h2>Corentin Roy,</h2>
-                <h3>Etudiant au <a href="http://mmimontbeliard.com/">DUT MMi de Montbéliard</a></h3>
+                <h3>Etudiant en <a href="https://iut-charlemagne.univ-lorraine.fr/informatique/lp-informatique-ciasie/">LP CIASIE à Nancy</a></h3>
                 <p>Passionné d'informatique et de dessin j'aime associer cette créativité avec la programmation. 
                     Créer est programmé sont au centre de mes activités. J'aime résoudre des problèmes dont je 
                     n'ai intuitivement aucune réponse, c'est cette perspective d'évolution qui m'attire dans ce 
@@ -110,10 +110,6 @@ p{
 
 h3 a{
     color: black;
-}
-
-a{
-    text-decoration: none;
 }
 
 @media (max-width: 768px) {

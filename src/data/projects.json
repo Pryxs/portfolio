@@ -46,8 +46,8 @@
         "paragraphe1": "Ce projet en duo clôture le chapitre sur le développement mobile. Nous devons réaliser une application reposant sur le Framework ionic. L'application doit répertorier l'ensemble des élèves des deux promotions ainsi que leur relevé de notes. On obtient donc une liste avec toutes les personnes de la promotion ainsi qu'une fiche leur correspondant contenant leur moyenne du semestre.",
         "photo1": "/releveNotes/ficheEleves.png",
         "titre2": "Réalisation technique",
-        "paragraphe2": "Une fois le projet créé, nous avons organisé les routes. Chacune avec un template et un controller qui leur corresponde. Le controller listeCtrl.js va chercher les données récupérer par le service Ajax. Ce dernier récupère donc un .json stocké en local. Nous pouvons ensuite restituer toutes ses données dans un template. On utilise la directive ng-repeat pour faire une boucle et ainsi afficher l'intégralité des éléments contenus dans le fichier .json",
-        "photo2": "/revtura/landingPage.png"
+        "paragraphe2": "Une fois le projet créé, nous avons organisé les routes avec chacune un template et un controller qui leur corresponde. Le controller va chercher les données récupérer par le service Ajax. Ce dernier récupère donc un json stocké en local et nous pouvons ensuite restituer toutes ses données dans un template. Il suffit ensuite de faire une boucle et ainsi afficher l'intégralité des éléments contenus dans le fichier json",
+        "photo2": "/releveNotes/service.png"
     },
 
     "Photobox":{
@@ -73,32 +73,31 @@
         "miniature": "/mediatheque/mediatheque.png",
         "titre" : "Médiathèque",
         "info" : "Outil de gestion de médiathèque",
-        "titre1": "Un projet collectif",
-        "paragraphe1": "Revtura est un site fictif réalisé en 2ème semestre de DUT MMi (Métiers des Multimédia et de lInternet). Issus d'un travail de groupe nous devions nous organiser afin de produire un site répondant à différentes contraintes a l'image d'un projet pro. Revtura est ce qui s'approche le plus d'un réseau social pour voyageur. L'utlisateur a donc la possibilité d'utiliser de nombreuses fonctionnalités comme la gestion d'un compte, la gestion de contenu ou encore de la géolocalisation.",
-        "photo1": "/revtura/accueil.png",
+        "titre1": "Atelier",
+        "paragraphe1": "Ce projet a été réalisé dans le cadre d'un exercice. Le but était de construire une application de gestion de médiathèque selon un cahier des charges. Ce projet a été réalisé sur une semaine et comportait en plus de la programmation des rendus graphique et technique. Ici pour travailler avec notre base de données pas de framework. Pour nous aider, durant la première partie du semestre nous avions développé un micro framework permettant d'utiliser des calss pour faciliter nos requêtes.",
+        "photo1": "/mediatheque/login.png",
         "couleurs": {
-            "c1" : "#0A8EDA",
-            "c2" : "#F2F2F2",
-            "c3" : "#FFAE26",
-            "c4" : "#006C89"
+            "c1" : "#34B3AA",
+            "c2" : "#E8E8E8",
+            "c3" : "#707070"
         },
-        "titre2": "Charte graphique",
-        "paragraphe2": "Promettant aux utilisateurs qu’ils pourront partager leurs expériences de voyages et de découvrir celle des autres nous avons donc choisi le nom Revtura qui les deux mots latin Reveles et Cultura qui se traduisent par Découvrir et Culture. De la est né notre harmonié colorée ainsi que la sélection des typographie.",
-        "paragraphe2bis" : "La création du logo suit aussi le ton donnée au site. Le choix d'un PIN pour la destination choisie par les utilisateurs et la flèche de validation symbolisant la sureté et faisant référence à un oiseau de dos.",
-        "photo2": "/revtura/landingPage.png"
+        "titre2": "Programmation et fonctionnement",
+        "paragraphe2": "Ce projet comportait en réalité 2 applications. L'une déstinée aux clients de la médiathèque servant à consulter les ouvrages disponibles et faire une demande d'emprunt. La deuxième application devait servir au personnel de la médiathèque qui avait la possibilité de gérer les stocks et d'attribuer des emprunts.",
+        "paragraphe2bis" : "Les applications comportaient également les fonctionnalités types comme un système de login, une gestion des comptes ou encore une gestion des utilisateurs.",
+        "photo2": "/mediatheque/liste.png"
     },
 
     "HLP":{
         "nom" : "HLP",
         "miniature": "/hlp/hlp.jpg",
-        "titre" : "hlp group",
+        "titre" : "Hlp group",
         "info" : "Digitilisation de processus métier",
         "titre1": "Un projet collectif",
-        "paragraphe1": "Revtura est un site fictif réalisé en 2ème semestre de DUT MMi (Métiers des Multimédia et de lInternet). Issus d'un travail de groupe nous devions nous organiser afin de produire un site répondant à différentes contraintes a l'image d'un projet pro. Revtura est ce qui s'approche le plus d'un réseau social pour voyageur. L'utlisateur a donc la possibilité d'utiliser de nombreuses fonctionnalités comme la gestion d'un compte, la gestion de contenu ou encore de la géolocalisation.",
-        "photo1": "/revtura/accueil.png",
-        "titre2": "Charte graphique",
-        "paragraphe2": "Promettant aux utilisateurs qu’ils pourront partager leurs expériences de voyages et de découvrir celle des autres nous avons donc choisi le nom Revtura qui les deux mots latin Reveles et Cultura qui se traduisent par Découvrir et Culture. De la est né notre harmonié colorée ainsi que la sélection des typographie.",
-        "paragraphe2bis" : "La création du logo suit aussi le ton donnée au site. Le choix d'un PIN pour la destination choisie par les utilisateurs et la flèche de validation symbolisant la sureté et faisant référence à un oiseau de dos.",
-        "photo2": "/revtura/landingPage.png"
+        "paragraphe1": " Les actions qui m’ont été demandées portent essentiellement sur la refonte graphique ainsi que du développement principalement côté client. Cette application accompagne les opérateurs dans leurs routine afin de digitaliser des processus pour l’industrie.",
+        "photo1": "/hlp/tdt.png",
+        "titre2": "Mon role dans ce projet",
+        "paragraphe2": "Mon travail sur ce projet a été de proposer une refonte graphique de chaque fonctionnalité de l'application. J'ai donc dans un premier temps beaucoup travaillé sur l'aspect graphique et ergonomique du projet. Une fois ces modifications validées, viens le temps d'intégrer ce nouveau design au projet.",
+        "paragraphe2bis" : "Chaque fonctionnalité nécessitait de comprendre le logique métier afin d'adapter au mieux l'application pour l'utilisateurs. Chaque fonctionnalité apportait son lot de nouveautés et de nouveaux problèmes à résoudre. Sagissant d'une refonte graphique, dans la majorité des cas la logique de l'application était fonctionnelle ne nécessitant pas beaucoup d'ajout.",
+        "photo2": "/hlp/mockupDS.png"
     }
 }

@@ -172,8 +172,7 @@ span{
    }
 
    .second img{
-     max-width: 500px;
-    width: 45%;
+    width: 50%;
     height: auto;
    }
 

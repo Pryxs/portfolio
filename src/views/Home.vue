@@ -12,7 +12,7 @@
         <div class="presentation">
           <h1>Corentin Roy</h1>
           <h1>Développeur Web</h1>
-          <p>Salut salut ! Moi c'est Corentin, un étudiant dans les métiers du numérique et plus particulèrement en développment web. Je cherche un stage qui débutera mi-avril alors si vous appréciez mon travail contactez moi ;)</p>
+          <p>Salut salut ! Moi c'est Corentin, un étudiant dans les métiers du numérique et plus particulièrement en développement web. Je cherche un stage qui débutera mi-avril alors si vous appréciez mon travail <a href="mailto:corentin25200@gmail.com">contactez-moi</a> ;)</p>
         </div>
     <Social/>
     <Navigation/>
@@ -51,6 +51,7 @@ export default {
   top: 40%;
   left: 50%; 
   transform: translate(-50%, -50%);
+  color: #f4f4f4
 
 }
 
@@ -59,14 +60,16 @@ export default {
     font-family: NotoSans;
   font-size: 55px;
   margin: 0;
-  color: #ddd;
     text-align: right;
 }
 
 .presentation p{
   margin-top: 70px;
-  color: #ddd;
   width: 80%;
+}
+
+.presentation a{
+  color: #F2BCB8;
 }
 
 .presentation h1:nth-child(2){
