@@ -31,11 +31,16 @@ export default {
     Navigation
   },
   
-
   mounted(){
     var element = document.querySelector("body");
     element.removeAttribute("class");
     element.classList.add("bg");
+    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      alert("mobile")
+  } else {
+          alert("laptop")
+
+  }
   }
 }
 </script>
@@ -44,7 +49,7 @@ export default {
 .cls-6{fill:white;stroke:white;stroke-width:1px;}
 
 .presentation{
-  width: 770px;
+  width: 70%;
   display: block;
   position: absolute;
   margin: auto;
@@ -65,7 +70,7 @@ export default {
 
 .presentation p{
   margin-top: 70px;
-  width: 80%;
+  width: 85%;
 }
 
 .presentation a{
@@ -121,8 +126,19 @@ export default {
     flex-direction: column;
     justify-content: space-between;
     height: 50%;
+}
 
+@media (max-width: 1000px) {
+  .presentation h1{
+      font-size: 2.5em;
+      text-align: center;
+  }
 
+  .presentation h1:nth-child(2){
+    font-size: 2.8em;
+    background-size: 33% 0.2em;
+    background-position: 20% 88%;
+  }
 }
 
 </style>
