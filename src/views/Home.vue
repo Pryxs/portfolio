@@ -14,7 +14,7 @@
           <h1>Développeur Web</h1>
           <p>Salut salut ! Moi c'est Corentin, un étudiant dans les métiers du numérique et plus particulièrement en développement web. Je cherche un stage qui débutera mi-avril alors si vous appréciez mon travail <a href="mailto:corentin25200@gmail.com">contactez-moi</a> ;)</p>
         </div>
-    <Social/>
+    <Social v-if="this.$store.state.isMobile == false"/>
     <Navigation/>
   </div>
 </template>
@@ -122,7 +122,7 @@ export default {
     height: 50%;
 }
 
-@media (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1000px) {
   .presentation h1{
       font-size: 2.5em;
       text-align: center;
@@ -130,6 +130,27 @@ export default {
 
   .presentation h1:nth-child(2){
     font-size: 2.8em;
+    background-size: 33% 0.2em;
+    background-position: 20% 88%;
+  }
+}
+
+@media (max-width: 600px) {
+  .presentation h1{
+       font-size: 1.5em;
+      text-align: center;
+  }
+
+  .presentation{
+    width: 90%;
+  }
+
+  .presentation p{
+  width: 100%;
+}
+
+  .presentation h1:nth-child(2){
+      font-size: 1.8em;
     background-size: 33% 0.2em;
     background-position: 20% 88%;
   }
