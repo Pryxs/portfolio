@@ -35,12 +35,6 @@ export default {
     var element = document.querySelector("body");
     element.removeAttribute("class");
     element.classList.add("bg");
-    if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-      alert("mobile")
-  } else {
-          alert("laptop")
-
-  }
   }
 }
 </script>

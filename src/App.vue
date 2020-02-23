@@ -6,11 +6,20 @@
 
 <script>
 // import Logo from '@/components/Logo.vue'
-// export default {
+export default {
 //   components: {
 //     Logo
 //   }
-// }
+
+mounted(){
+    let isMobile = false;
+     if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+        isMobile = true;
+  }
+    this.$store.commit('device', isMobile);
+}
+
+ }
 </script>
 
 <style>

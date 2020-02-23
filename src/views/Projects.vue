@@ -44,6 +44,7 @@ export default {
     var element = document.querySelector("body");
     element.removeAttribute("class");
     element.classList.add("bgPro");
+    alert(this.$store.state.isMobile);
   }
 }
 </script>
