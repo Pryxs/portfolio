@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import data from '@/data/projects.json'
+import data from '@/data/ENprojects.json'
 import Back from '@/components/Back.vue'
 import Logo from '@/components/Logo.vue'
 

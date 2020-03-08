@@ -9,11 +9,15 @@
                     </svg>
             </router-link>
         </div>
+        <div class="video">
+          <iframe margin-top="30" width="538" height="303" src="https://www.youtube.com/embed/9jQjbEuIRgk?list=UUgm3RJKj_b6DAcV4ZEI9S6w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <!--
         <div class="presentation">
           <h1>Corentin Roy</h1>
           <h1>Développeur Web</h1>
           <p>Salut salut ! Moi c'est Corentin, un étudiant dans les métiers du numérique et plus particulièrement en développement web. Je cherche un stage qui débutera mi-avril alors si vous appréciez mon travail <a href="mailto:corentin25200@gmail.com">contactez-moi</a> ;)</p>
-        </div>
+        </div>-->
     <Social v-if="this.$store.state.isMobile == false"/>
     <Navigation/>
   </div>
@@ -40,6 +44,7 @@ export default {
 </script>
 
 <style>
+
 .cls-6{fill:white;stroke:white;stroke-width:1px;}
 
 .presentation{

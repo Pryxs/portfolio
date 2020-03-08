@@ -9,7 +9,7 @@
                 </svg>
         </router-link>
     </div>
-
+<!--
       <div class="cont">
         <h1>A propos</h1>
             <div class="main">
@@ -30,7 +30,27 @@
             <a href="CurriculumVitae_CorentinRoy.pdf" class="but" download title="téléchargement" >Mon CV</a>
             </div>
             </div>
-    </div>
+    -->
+
+     <div class="cont">
+        <h1>About</h1>
+            <div class="main">
+            <div class="content">
+                <h2>Corentin Roy,</h2>
+                <h3><a href="https://iut-charlemagne.univ-lorraine.fr/informatique/lp-informatique-ciasie/">LP CIASIE</a> students at Nancy</h3>
+                <p>I'm passionate by computer science and drawing I like to combine creativity and programming. These activity are at the centre of my interests. I like to solve problems that I have intuitively  no answer. It’s this perspective of evolution that attracts me in web Development. </p>
+            </div>
+            <img src="../assets/corentin_roy.png">
+            </div>
+            <div class="svg-wrapper">
+                    <svg height="40" width="200" xmlns="http://www.w3.org/2000/svg">
+                      <rect class="shape" height="40" width="200" />
+                    </svg>
+            <a href="ENCurriculumVitae.pdf" class="but" download title="téléchargement" >CV</a>
+            </div>
+            </div>
+        </div>
+
 </template>
 
 <script>

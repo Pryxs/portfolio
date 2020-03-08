@@ -1,7 +1,7 @@
 <template>
     <div class="retour">
         <router-link to="/projets">
-                <label>Projets</label>
+                <label>Projects</label>
                 <svg id="fleche" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 92.5 38">
                     <line class="cls-1" x1="4.5" y1="17.5" x2="64.5" y2="17.5"/>
                     <polyline id="triangle" class="cls-2" points="68.5 2.5 87.94 17.93 68.44 33.44"/>

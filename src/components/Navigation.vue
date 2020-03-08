@@ -8,7 +8,7 @@
                         <path id="gauche" class="cls-1" d="M27,31A15,15,0,0,1,27,1"/>
                         <line id="ligne" class="cls-1" x1="27" y1="31" x2="27" y2="70"/>        
                     </svg>
-                    <label id="proj">Projets</label>
+                    <label id="proj">Projects</label>
             </router-link>
             <router-link to="/about">
             <svg id="cercle" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60 60">
@@ -17,7 +17,7 @@
                         <path id="gauche" class="cls-1" d="M27,31A15,15,0,0,1,27,1"/>
                         <line id="ligne" class="cls-1" x1="27" y1="31" x2="27" y2="70"/>        
                     </svg>
-                    <label id="propos">A propos</label>
+                    <label id="propos">About</label>
             </router-link>
         </div>
 

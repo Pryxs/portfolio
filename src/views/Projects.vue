@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import data from '@/data/projects.json'
+import data from '@/data/ENprojects.json'
 import Logo from '@/components/Logo.vue'
 
 export default {

@@ -1,0 +1,103 @@
+{
+    "Revtura":{
+        "nom" : "Revtura",
+        "miniature": "/revtura/revtura.png",
+        "titre" : "Revtura",
+        "info" : "the travelers network",
+        "titre1": "a collective project",
+        "paragraphe1": "Revtura is a fictitious website created in the 2nd semester of DUT Mmi (Multimedia and Internet Professions). It was a group work where we had to organize ourselves in order to produce a website answering differents constraints like a pro project. Revtura is the closest thing to a social network for travelers. Users have the possibility to use many features like account management, content management or geolocation",
+        "photo1": "/revtura/accueil.png",
+        "couleurs": {
+            "c1" : "#0A8EDA",
+            "c2" : "#F2F2F2",
+            "c3" : "#FFAE26",
+            "c4" : "#006C89"
+        },
+        "titre2": "graphic chart",
+        "paragraphe2": "Users will be able to share their travel experiences and discover those of others we have chosen the name Revtura that the two Latin words Reveles and Cultura translate into Discover and Culture. Thence was born our colored harmony as well as the typography.",
+        "paragraphe2bis" : "The logo's creation also follows the theme given to the site. The choice of a map pin for the destination chosen by the users and the validation arrow symbolizing safety and referring to a bird in a back view. (you can see it on the picture to your right)",
+        "photo2": "/revtura/landingPage.png"
+    },
+
+    "JeanBauhin":{
+        "nom" : "JeanBauhin",
+        "miniature": "/jeanBauhin/jeanbauhin.png",
+        "titre" : "Jean Bauhin",
+        "info" : "Jean Bauhin Middle School website",
+        "titre1": "Professional project",
+        "paragraphe1": "Jean Bauhin's website is a tutored project which has for vocation to immerse ourselves in the professional universe. It wasn't a fictitious project, we were front of real clients. More than an exercise, the error's right was not allowed. The aim of this project was to produce the Jean Bauhin's website, middle school from Audincourt, responding to an image problem (this middle school was unpopular) with all the constraints of a website hosted by the Besançon’s academy.",
+        "photo1": "/jeanBauhin/grilleMockup.png",
+        "couleurs": {
+            "c1" : "#8F1A1A",
+            "c2" : "#F5ECEC",
+            "c3" : "#454444"
+        },
+        "titre2": "Technical realisation",
+        "paragraphe2": "Before starting to develop the site it was necessary to think about the use cases and the activity diagrams of this product. In line with the constraints imposed by the Besançon’s academy (versions, plugins, etc.), development could begin. The site is programmed with Wordpress to facilitate the use of the website by clients. In addition to the features offered by Wordpress I decided to use ACF plugin that allows to create custom fields. The idea was to limit the client in the page's structure for not upset the layout of its elements.",
+        "photo2": "/jeanBauhin/accueil.png"
+    },
+
+    "RelevesNotes":{
+        "nom" : "RelevesNotes",
+        "miniature": "/releveNotes/mmi.jpg",
+        "titre" : "Transcript",
+        "info" : "grades of MMi's students",
+        "titre1": "mobile development",
+        "paragraphe1": "This duo project closes the chapter on mobile development. We need to build an application based on the ionic framework. The application must list all students in both promotions and their transcripts. At the end we get a list with all the people in the class and a sheet including their semester average.",
+        "photo1": "/releveNotes/ficheEleves.png",
+        "titre2": "technical realisation",
+        "paragraphe2": "Once the project created, we setted up a router with the corresponding template and controller. The controller will to bring the data that was recovered by the Ajax service. This last one recoverds a json file locally stocked, then we return all its data in the template. After this, we make a loop and display all the elements contained in the json file.",
+        "photo2": "/releveNotes/service.png"
+    },
+
+    "Photobox":{
+        "nom" : "Photobox",
+        "miniature": "/photobox/photobox.png",
+        "titre" : "Photobox",
+        "info" : "Photo sharing application",
+        "titre1": "The concept",
+        "paragraphe1": "Photobox is a friendly application that allows users to join events and keep a memory of it. The aim of this app is to meet persons around photography and party. From this app, they could the events that interests them and post photos there. Those photos will be available for all users if the event is public and only to guest if the event is privacy.",
+        "photo1": "/photobox/login.jpg",
+        "couleurs": {
+            "c1" : "#824AA7",
+            "c2" : "#EEEEEE",
+            "c3" : "#3F2D86"
+        },
+        "titre2": "Structure",
+        "paragraphe2": "To start our project we decided to structure it like this. A mobile app who let users interact with our service. This application communicate with an APi who is connect with a database. There is also a player to projects users photos on a board.",
+        "photo2": "/photobox/architecture.png"
+    },
+
+    "Mediatheque":{
+        "nom" : "Mediatheque",
+        "miniature": "/mediatheque/mediatheque.png",
+        "titre" : "Library",
+        "info" : "Library Management Tool",
+        "titre1": "Atelier",
+        "paragraphe1": "This project was realised for an exercise. The aim was to build a library management application according to specifications. This project was developed over a week, it included programming, graphic and technical renderings. To work with our database we didn't have the right to use a framework. To help us, during the first part of the semester we developed a micro framework to facilitate our requests.",
+        "photo1": "/mediatheque/login.png",
+        "couleurs": {
+            "c1" : "#34B3AA",
+            "c2" : "#E8E8E8",
+            "c3" : "#707070"
+        },
+        "titre2": "Programming and operation",
+        "paragraphe2": "This project actually had 2 applications. One for clients of the library used to view available documents and to borrow them. The second one was to be used by library staff who had the ability to manage inventory, manage clients and verify borrow.",
+        "paragraphe2bis" : "The applications also included classic features such as a login system, account management or user management.",
+        "photo2": "/mediatheque/liste.png"
+    },
+
+    "HLP":{
+        "nom" : "HLP",
+        "miniature": "/hlp/hlp.jpg",
+        "titre" : "Hlp group",
+        "info" : "Digitisation of business processes",
+        "titre1": "a collective project",
+        "paragraphe1": "I have been asked mainly to do a graphic redesign as well as the development mainly on the client side. This application support operators in their routine in an industrial context.",
+        "photo1": "/hlp/tdt.png",
+        "titre2": "My place in this project",
+        "paragraphe2": "My work on this project has been to propose a graphical redesign of each feature of the application. So I worked a lot on the graphical and ergonomic aspect of the project. Once these changes have been validated, it’s time to integrate this new design into the project.",
+        "paragraphe2bis" : "Each feature needed to understand the business logic in order to answer correctly to users' needs. Each feature brought its news and new problems to solve. After a graphical redesign, in most cases the logic of the application was functional without requiring much addition.",
+        "photo2": "/hlp/mockupDS.png"
+    }
+}
